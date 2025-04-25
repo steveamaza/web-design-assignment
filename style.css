@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+    }
+}
+
+main {
+    .hero {
+        display: flex;
+        background-color: #1F2937;
+        padding: 50px 100px;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-size: 18px;
+            color: #E5E7EB;
+        }
+
+        button {
+            background-color: #3B82F6;
+            color: white;
+            border: none;
+            padding: 8px 48px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            align-self: flex-start;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #F9FAF8;
+            font-weight: 900;
+            margin: 0;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        } 
+
+        figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            flex: 1;
+        }
+    }
+
+    .info-cards {
+        padding: 50px 100px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .info-cards__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .info-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            flex: 1;
+            padding: 20px;
+        }
+
+        .info-card__image {
+            height: 100px;
+            width: 100px;
+            border: #3B82F6 2px solid;
+            border-radius: 10%;
+            margin: 5px 0;
+        }
+    }
+
+    .testimonial { 
+        padding: 50px 100px;
+        background: #E5E7EB;
+        font-size: 36px;
+        color: #1F2937;
+
+        blockquote {
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            font-weight: lighter;
+            font-style: italic;
+        }
+
+        cite {
+            font-style: normal;
+            text-align: right;
+        }
+    }
+
+    .call-to-action {
+        padding: 50px 100px;
+    }
+}
+
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
